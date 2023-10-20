@@ -1,0 +1,743 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Company.Workshop8.Workshop8DomainModel.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.Workshop8</value>
+    <comment>Description for DslLibrary &apos;Workshop8&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.Workshop8DomainModel.DisplayName" xml:space="preserve">
+    <value>Workshop8</value>
+    <comment>DisplayName for DslLibrary &apos;Workshop8&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.SoftwareArchitecture.Description" xml:space="preserve">
+    <value>The root in which all other elements are embedded. Appears as a diagram.</value>
+    <comment>Description for DomainClass &apos;SoftwareArchitecture&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.SoftwareArchitecture.DisplayName" xml:space="preserve">
+    <value>Software Architecture</value>
+    <comment>DisplayName for DomainClass &apos;SoftwareArchitecture&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ImpactLevel.Description" xml:space="preserve">
+    <value>Elements embedded in the model. Appear as boxes on the diagram.</value>
+    <comment>Description for DomainClass &apos;ImpactLevel&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ImpactLevel.DisplayName" xml:space="preserve">
+    <value>Impact Level</value>
+    <comment>DisplayName for DomainClass &apos;ImpactLevel&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ImpactLevel/Name.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.ImpactLevel.Name</value>
+    <comment>Description for DomainProperty &apos;Name&apos; on DomainClass &apos;ImpactLevel&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ImpactLevel/Name.DisplayName" xml:space="preserve">
+    <value>Name</value>
+    <comment>DisplayName for DomainProperty &apos;Name&apos; on DomainClass &apos;ImpactLevel&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.Structural.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.Structural</value>
+    <comment>Description for DomainClass &apos;Structural&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.Structural.DisplayName" xml:space="preserve">
+    <value>Structural</value>
+    <comment>DisplayName for DomainClass &apos;Structural&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.Structural/StructuralName.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.Structural.Structural Name</value>
+    <comment>Description for DomainProperty &apos;StructuralName&apos; on DomainClass &apos;Structural&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.Structural/StructuralName.DisplayName" xml:space="preserve">
+    <value>Structural Name</value>
+    <comment>DisplayName for DomainProperty &apos;StructuralName&apos; on DomainClass &apos;Structural&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.Enabling.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.Enabling</value>
+    <comment>Description for DomainClass &apos;Enabling&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.Enabling.DisplayName" xml:space="preserve">
+    <value>Enabling</value>
+    <comment>DisplayName for DomainClass &apos;Enabling&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.Enabling/EnablingName.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.Enabling.Enabling Name</value>
+    <comment>Description for DomainProperty &apos;EnablingName&apos; on DomainClass &apos;Enabling&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.Enabling/EnablingName.DisplayName" xml:space="preserve">
+    <value>Enabling Name</value>
+    <comment>DisplayName for DomainProperty &apos;EnablingName&apos; on DomainClass &apos;Enabling&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.Immediate.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.Immediate</value>
+    <comment>Description for DomainClass &apos;Immediate&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.Immediate.DisplayName" xml:space="preserve">
+    <value>Immediate</value>
+    <comment>DisplayName for DomainClass &apos;Immediate&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.Immediate/ImmediateName.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.Immediate.Immediate Name</value>
+    <comment>Description for DomainProperty &apos;ImmediateName&apos; on DomainClass &apos;Immediate&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.Immediate/ImmediateName.DisplayName" xml:space="preserve">
+    <value>Immediate Name</value>
+    <comment>DisplayName for DomainProperty &apos;ImmediateName&apos; on DomainClass &apos;Immediate&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.Concern.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.Concern</value>
+    <comment>Description for DomainClass &apos;Concern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.Concern.DisplayName" xml:space="preserve">
+    <value>Concern</value>
+    <comment>DisplayName for DomainClass &apos;Concern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.Concern/ConcernName.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.Concern.Concern Name</value>
+    <comment>Description for DomainProperty &apos;ConcernName&apos; on DomainClass &apos;Concern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.Concern/ConcernName.DisplayName" xml:space="preserve">
+    <value>Concern Name</value>
+    <comment>DisplayName for DomainProperty &apos;ConcernName&apos; on DomainClass &apos;Concern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.EconomicConcern.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.EconomicConcern</value>
+    <comment>Description for DomainClass &apos;EconomicConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.EconomicConcern.DisplayName" xml:space="preserve">
+    <value>Economic Concern</value>
+    <comment>DisplayName for DomainClass &apos;EconomicConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.EconomicConcern/EcoName.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.EconomicConcern.Eco Name</value>
+    <comment>Description for DomainProperty &apos;EcoName&apos; on DomainClass &apos;EconomicConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.EconomicConcern/EcoName.DisplayName" xml:space="preserve">
+    <value>Eco Name</value>
+    <comment>DisplayName for DomainProperty &apos;EcoName&apos; on DomainClass &apos;EconomicConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.SocialConcern.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.SocialConcern</value>
+    <comment>Description for DomainClass &apos;SocialConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.SocialConcern.DisplayName" xml:space="preserve">
+    <value>Social Concern</value>
+    <comment>DisplayName for DomainClass &apos;SocialConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.SocialConcern/SocialName.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.SocialConcern.Social Name</value>
+    <comment>Description for DomainProperty &apos;SocialName&apos; on DomainClass &apos;SocialConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.SocialConcern/SocialName.DisplayName" xml:space="preserve">
+    <value>Social Name</value>
+    <comment>DisplayName for DomainProperty &apos;SocialName&apos; on DomainClass &apos;SocialConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.EnvironmentalConcern.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.EnvironmentalConcern</value>
+    <comment>Description for DomainClass &apos;EnvironmentalConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.EnvironmentalConcern.DisplayName" xml:space="preserve">
+    <value>Environmental Concern</value>
+    <comment>DisplayName for DomainClass &apos;EnvironmentalConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.EnvironmentalConcern/EnvironmentalName.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.EnvironmentalConcern.Environmental Name</value>
+    <comment>Description for DomainProperty &apos;EnvironmentalName&apos; on DomainClass &apos;EnvironmentalConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.EnvironmentalConcern/EnvironmentalName.DisplayName" xml:space="preserve">
+    <value>Environmental Name</value>
+    <comment>DisplayName for DomainProperty &apos;EnvironmentalName&apos; on DomainClass &apos;EnvironmentalConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.TechnicalConcern.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.TechnicalConcern</value>
+    <comment>Description for DomainClass &apos;TechnicalConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.TechnicalConcern.DisplayName" xml:space="preserve">
+    <value>Technical Concern</value>
+    <comment>DisplayName for DomainClass &apos;TechnicalConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.TechnicalConcern/TechName.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.TechnicalConcern.Tech Name</value>
+    <comment>Description for DomainProperty &apos;TechName&apos; on DomainClass &apos;TechnicalConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.TechnicalConcern/TechName.DisplayName" xml:space="preserve">
+    <value>Tech Name</value>
+    <comment>DisplayName for DomainProperty &apos;TechName&apos; on DomainClass &apos;TechnicalConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.SoftwareArchitectureHasElements.Description" xml:space="preserve">
+    <value>Embedding relationship between the Model and Elements</value>
+    <comment>Description for DomainClass &apos;SoftwareArchitectureHasElements&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.SoftwareArchitectureHasElements.DisplayName" xml:space="preserve">
+    <value>Software Architecture Has Elements</value>
+    <comment>DisplayName for DomainClass &apos;SoftwareArchitectureHasElements&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.SoftwareArchitectureHasElements/SoftwareArchitecture.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainRole &apos;SoftwareArchitecture&apos; on DomainRelationship &apos;SoftwareArchitectureHasElements&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.SoftwareArchitectureHasElements/SoftwareArchitecture.DisplayName" xml:space="preserve">
+    <value>Software Architecture</value>
+    <comment>DisplayName for DomainRole &apos;SoftwareArchitecture&apos; on DomainRelationship &apos;SoftwareArchitectureHasElements&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.SoftwareArchitectureHasElements/SoftwareArchitecture.PropertyDisplayName" xml:space="preserve">
+    <value>Elements</value>
+    <comment>PropertyDisplayName for DomainRole &apos;SoftwareArchitecture&apos; on DomainRelationship &apos;SoftwareArchitectureHasElements&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.SoftwareArchitectureHasElements/Element.Description" xml:space="preserve">
+    <value></value>
+    <comment>Description for DomainRole &apos;Element&apos; on DomainRelationship &apos;SoftwareArchitectureHasElements&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.SoftwareArchitectureHasElements/Element.DisplayName" xml:space="preserve">
+    <value>Element</value>
+    <comment>DisplayName for DomainRole &apos;Element&apos; on DomainRelationship &apos;SoftwareArchitectureHasElements&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.SoftwareArchitectureHasElements/Element.PropertyDisplayName" xml:space="preserve">
+    <value>Software Architecture</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Element&apos; on DomainRelationship &apos;SoftwareArchitectureHasElements&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ImpactLevelHasConcern.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.ImpactLevelHasConcern</value>
+    <comment>Description for DomainClass &apos;ImpactLevelHasConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ImpactLevelHasConcern.DisplayName" xml:space="preserve">
+    <value>Impact Level Has Concern</value>
+    <comment>DisplayName for DomainClass &apos;ImpactLevelHasConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ImpactLevelHasConcern/ImpactLevel.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.ImpactLevelHasConcern.ImpactLevel</value>
+    <comment>Description for DomainRole &apos;ImpactLevel&apos; on DomainRelationship &apos;ImpactLevelHasConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ImpactLevelHasConcern/ImpactLevel.DisplayName" xml:space="preserve">
+    <value>Impact Level</value>
+    <comment>DisplayName for DomainRole &apos;ImpactLevel&apos; on DomainRelationship &apos;ImpactLevelHasConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ImpactLevelHasConcern/ImpactLevel.PropertyDisplayName" xml:space="preserve">
+    <value>Concern</value>
+    <comment>PropertyDisplayName for DomainRole &apos;ImpactLevel&apos; on DomainRelationship &apos;ImpactLevelHasConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ImpactLevelHasConcern/Concern.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.ImpactLevelHasConcern.Concern</value>
+    <comment>Description for DomainRole &apos;Concern&apos; on DomainRelationship &apos;ImpactLevelHasConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ImpactLevelHasConcern/Concern.DisplayName" xml:space="preserve">
+    <value>Concern</value>
+    <comment>DisplayName for DomainRole &apos;Concern&apos; on DomainRelationship &apos;ImpactLevelHasConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ImpactLevelHasConcern/Concern.PropertyDisplayName" xml:space="preserve">
+    <value>Impact Level</value>
+    <comment>PropertyDisplayName for DomainRole &apos;Concern&apos; on DomainRelationship &apos;ImpactLevelHasConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ConcernReferencesTargetConcern.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.ConcernReferencesTargetConcern</value>
+    <comment>Description for DomainClass &apos;ConcernReferencesTargetConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ConcernReferencesTargetConcern.DisplayName" xml:space="preserve">
+    <value>Concern References Target Concern</value>
+    <comment>DisplayName for DomainClass &apos;ConcernReferencesTargetConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ConcernReferencesTargetConcern/SourceConcern.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.ConcernReferencesTargetConcern.SourceConcern</value>
+    <comment>Description for DomainRole &apos;SourceConcern&apos; on DomainRelationship &apos;ConcernReferencesTargetConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ConcernReferencesTargetConcern/SourceConcern.DisplayName" xml:space="preserve">
+    <value>Source Concern</value>
+    <comment>DisplayName for DomainRole &apos;SourceConcern&apos; on DomainRelationship &apos;ConcernReferencesTargetConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ConcernReferencesTargetConcern/SourceConcern.PropertyDisplayName" xml:space="preserve">
+    <value>Target Concern</value>
+    <comment>PropertyDisplayName for DomainRole &apos;SourceConcern&apos; on DomainRelationship &apos;ConcernReferencesTargetConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ConcernReferencesTargetConcern/TargetConcern.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.ConcernReferencesTargetConcern.TargetConcern</value>
+    <comment>Description for DomainRole &apos;TargetConcern&apos; on DomainRelationship &apos;ConcernReferencesTargetConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ConcernReferencesTargetConcern/TargetConcern.DisplayName" xml:space="preserve">
+    <value>Target Concern</value>
+    <comment>DisplayName for DomainRole &apos;TargetConcern&apos; on DomainRelationship &apos;ConcernReferencesTargetConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ConcernReferencesTargetConcern/TargetConcern.PropertyDisplayName" xml:space="preserve">
+    <value>Source Concern</value>
+    <comment>PropertyDisplayName for DomainRole &apos;TargetConcern&apos; on DomainRelationship &apos;ConcernReferencesTargetConcern&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ExampleShape.Description" xml:space="preserve">
+    <value>Shape used to represent ExampleElements on a Diagram.</value>
+    <comment>Description for DomainClass &apos;ExampleShape&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ExampleShape.DisplayName" xml:space="preserve">
+    <value>Example Shape</value>
+    <comment>DisplayName for DomainClass &apos;ExampleShape&apos;</comment>
+  </data>
+  <data name="ExampleShapeNameDecoratorDefaultText" xml:space="preserve">
+    <value>NameDecorator</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.Workshop8.StructuralShape.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.StructuralShape</value>
+    <comment>Description for DomainClass &apos;StructuralShape&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.StructuralShape.DisplayName" xml:space="preserve">
+    <value>Structural Shape</value>
+    <comment>DisplayName for DomainClass &apos;StructuralShape&apos;</comment>
+  </data>
+  <data name="StructuralShapeStructuralShapeNameDefaultText" xml:space="preserve">
+    <value>Structural</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.Workshop8.EnablingShape.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.EnablingShape</value>
+    <comment>Description for DomainClass &apos;EnablingShape&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.EnablingShape.DisplayName" xml:space="preserve">
+    <value>Enabling Shape</value>
+    <comment>DisplayName for DomainClass &apos;EnablingShape&apos;</comment>
+  </data>
+  <data name="EnablingShapeEnablingShapeNameDefaultText" xml:space="preserve">
+    <value>Enabling</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.Workshop8.ImmediateShape.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.ImmediateShape</value>
+    <comment>Description for DomainClass &apos;ImmediateShape&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ImmediateShape.DisplayName" xml:space="preserve">
+    <value>Immediate Shape</value>
+    <comment>DisplayName for DomainClass &apos;ImmediateShape&apos;</comment>
+  </data>
+  <data name="ImmediateShapeImmediateShapeNameDefaultText" xml:space="preserve">
+    <value>Immediate</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.Workshop8.EconomicConcernShape.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.EconomicConcernShape</value>
+    <comment>Description for DomainClass &apos;EconomicConcernShape&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.EconomicConcernShape.DisplayName" xml:space="preserve">
+    <value>Economic Concern Shape</value>
+    <comment>DisplayName for DomainClass &apos;EconomicConcernShape&apos;</comment>
+  </data>
+  <data name="EconomicConcernShapeEcoShapeNameDefaultText" xml:space="preserve">
+    <value>Fill in text</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.Workshop8.SocialConcernShape.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.SocialConcernShape</value>
+    <comment>Description for DomainClass &apos;SocialConcernShape&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.SocialConcernShape.DisplayName" xml:space="preserve">
+    <value>Social Concern Shape</value>
+    <comment>DisplayName for DomainClass &apos;SocialConcernShape&apos;</comment>
+  </data>
+  <data name="SocialConcernShapeSocialShapeNameDefaultText" xml:space="preserve">
+    <value>SocialShapeName</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.Workshop8.EnvironmentalConcernShape.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.EnvironmentalConcernShape</value>
+    <comment>Description for DomainClass &apos;EnvironmentalConcernShape&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.EnvironmentalConcernShape.DisplayName" xml:space="preserve">
+    <value>Environmental Concern Shape</value>
+    <comment>DisplayName for DomainClass &apos;EnvironmentalConcernShape&apos;</comment>
+  </data>
+  <data name="EnvironmentalConcernShapeEnvironmentalShapeNameDefaultText" xml:space="preserve">
+    <value>EnvironmentalShapeName</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.Workshop8.TechnicalConcernShape.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.TechnicalConcernShape</value>
+    <comment>Description for DomainClass &apos;TechnicalConcernShape&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.TechnicalConcernShape.DisplayName" xml:space="preserve">
+    <value>Technical Concern Shape</value>
+    <comment>DisplayName for DomainClass &apos;TechnicalConcernShape&apos;</comment>
+  </data>
+  <data name="TechnicalConcernShapeTechnicalShapeNameDefaultText" xml:space="preserve">
+    <value>TechnicalShapeName</value>
+    <comment>Text decorator default text</comment>
+  </data>
+  <data name="Company.Workshop8.ExampleConnector.Description" xml:space="preserve">
+    <value>Connector between the ExampleShapes. Represents ExampleRelationships on the Diagram.</value>
+    <comment>Description for DomainClass &apos;ExampleConnector&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.ExampleConnector.DisplayName" xml:space="preserve">
+    <value>Example Connector</value>
+    <comment>DisplayName for DomainClass &apos;ExampleConnector&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.Relationship.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.Relationship</value>
+    <comment>Description for DomainClass &apos;Relationship&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.Relationship.DisplayName" xml:space="preserve">
+    <value>Relationship</value>
+    <comment>DisplayName for DomainClass &apos;Relationship&apos;</comment>
+  </data>
+  <data name="FormatList" xml:space="preserve">
+    <value>Workshop8 (*.Workshop8)|*.Workshop8</value>
+    <comment>A list of file format specifiers for the Save dialog box</comment>
+  </data>
+  <data name="ModelExplorerTitle" xml:space="preserve">
+    <value>Workshop8 Explorer</value>
+    <comment>Model Explorer Toolwindow title</comment>
+  </data>
+  <data name="Company.Workshop8.Workshop8Diagram.Description" xml:space="preserve">
+    <value>Description for Company.Workshop8.Workshop8Diagram</value>
+    <comment>Description for DomainClass &apos;Workshop8Diagram&apos;</comment>
+  </data>
+  <data name="Company.Workshop8.Workshop8Diagram.DisplayName" xml:space="preserve">
+    <value>Minimal Language Diagram</value>
+    <comment>DisplayName for DomainClass &apos;Workshop8Diagram&apos;</comment>
+  </data>
+  <data name="Workshop8ToolboxTab" xml:space="preserve">
+    <value>Workshop8</value>
+    <comment>Toolbox item tab name</comment>
+  </data>
+  <data name="ExampleElementToolboxItem" xml:space="preserve">
+    <value>ExampleElement</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ExampleElementToolboxTooltip" xml:space="preserve">
+    <value>Create an ExampleElement</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="StructuralToolboxItem" xml:space="preserve">
+    <value>Structural</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="StructuralToolboxTooltip" xml:space="preserve">
+    <value>Structural</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EnablingToolboxItem" xml:space="preserve">
+    <value>Enabling</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EnablingToolboxTooltip" xml:space="preserve">
+    <value>Enabling</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="ImmediateToolboxItem" xml:space="preserve">
+    <value>Immediate</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="ImmediateToolboxTooltip" xml:space="preserve">
+    <value>Immediate</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EconomicConcernToolboxItem" xml:space="preserve">
+    <value>EconomicConcern</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EconomicConcernToolboxTooltip" xml:space="preserve">
+    <value>Economic Concern</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="SocialConcernToolboxItem" xml:space="preserve">
+    <value>SocialConcern</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="SocialConcernToolboxTooltip" xml:space="preserve">
+    <value>Social Concern</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="EnvironmentalConcernToolboxItem" xml:space="preserve">
+    <value>EnvironmentalConcern</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="EnvironmentalConcernToolboxTooltip" xml:space="preserve">
+    <value>Environmental Concern</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="TechnicalConcernToolboxItem" xml:space="preserve">
+    <value>TechnicalConcern</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="TechnicalConcernToolboxTooltip" xml:space="preserve">
+    <value>Technical Concern</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="RelationshipToolboxItem" xml:space="preserve">
+    <value>Relationship</value>
+    <comment>Toolbox item name</comment>
+  </data>
+  <data name="RelationshipToolboxTooltip" xml:space="preserve">
+    <value>Relationship</value>
+    <comment>Toolbox tooltip text</comment>
+  </data>
+  <data name="UnresolvedToolboxItem" xml:space="preserve">
+    <value>ToolboxItem {0} was not found</value>
+    <comment>Invalid toolId</comment>
+  </data>
+  <data name="UnsupportedToolboxFormat" xml:space="preserve">
+    <value>Unsupported toolbox format: {0}</value>
+    <comment>Unsupported format Id</comment>
+  </data>
+  <data name="UnrecognizedElementType" xml:space="preserve">
+    <value>ElementType {0} is not recognized as a type of domain class which belongs to this domain model.</value>
+    <comment>Incorrect ElementType passed in to Model.CreateElement method</comment>
+  </data>
+  <data name="UnrecognizedElementLinkType" xml:space="preserve">
+    <value>ElementLinkType {0} is not recognized as a type of domain relationship which belongs to this domain model.</value>
+    <comment>Incorrect ElementLinkType passed in to Model.CreateElementLink method</comment>
+  </data>
+  <data name="AmbiguousSchema" xml:space="preserve">
+    <value>More than one schema found for target namespace &apos;{0}&apos;, use the first one at &apos;{1}&apos;.</value>
+    <comment>Serialization Warning: AmbiguousSchema</comment>
+  </data>
+  <data name="ExpectingFullFormRelationship" xml:space="preserve">
+    <value>Element &apos;{0}&apos; is treated as the target role-player of a relationship &apos;{1}&apos; instance, which should be serialized in full-form.</value>
+    <comment>Serialization Warning: ExpectingFullFormRelationship</comment>
+  </data>
+  <data name="ExpectingShortFormRelationship" xml:space="preserve">
+    <value>Instances of relationship &apos;{0}&apos; should be serialized in short-form.</value>
+    <comment>Serialization Warning: ExpectingShortFormRelationship</comment>
+  </data>
+  <data name="IgnoredPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;, ignored.</value>
+    <comment>Serialization Warning: IgnoredPropertyValue</comment>
+  </data>
+  <data name="MissingId" xml:space="preserve">
+    <value>Missing &apos;Id&apos; attribute, a new Guid &apos;{0}&apos; is auto-generated.</value>
+    <comment>Serialization Warning: MissingId</comment>
+  </data>
+  <data name="MonikerResolvedToDuplicateLink" xml:space="preserve">
+    <value>Resolving moniker &apos;{0}&apos; causes a duplicate link to be created, so the link and the moniker are ignored.</value>
+    <comment>Serialization Warning: MonikerResolvedToDuplicateLink</comment>
+  </data>
+  <data name="NoSchema" xml:space="preserve">
+    <value>Cannot find a schema that defines target namespace &apos;{0}&apos;, schema validation skipped.</value>
+    <comment>Serialization Warning: NoSchema</comment>
+  </data>
+  <data name="UnexpectedXmlElement" xml:space="preserve">
+    <value>Unexpected XML element &apos;{0}&apos;, ignored.</value>
+    <comment>Serialization Warning: UnexpectedXmlElement</comment>
+  </data>
+  <data name="AmbiguousMoniker" xml:space="preserve">
+    <value>Ambiguous moniker &apos;{0}&apos; encountered. It is used for both &apos;{1}&apos; and &apos;{2}&apos;.</value>
+    <comment>Serialization Error: AmbiguousMoniker</comment>
+  </data>
+  <data name="CannotMonikerizeElement" xml:space="preserve">
+    <value>Instances of DomainClass &apos;{0}&apos; cannot be serialized as a moniker.
+A DomainClass can be serialized as a moniker only if 
+1) it has a defined/inherited DomainProperty marked as IsMonikerKey=true, or 
+2) it is marked/inherited with SerializeId=true.</value>
+    <comment>Serialization Error: CannotMonikerizeElement</comment>
+  </data>
+  <data name="CannotOpenDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotOpenDocument</comment>
+  </data>
+  <data name="CannotSaveDocument" xml:space="preserve">
+    <value>Error encountered, check Error List window for details.</value>
+    <comment>Serialization Error: CannotSaveDocument</comment>
+  </data>
+  <data name="DanglingRelationship" xml:space="preserve">
+    <value>Relationship &apos;{0}&apos; instance is missing target role-player.</value>
+    <comment>Serialization Error: DanglingRelationship</comment>
+  </data>
+  <data name="InvalidPropertyValue" xml:space="preserve">
+    <value>Invalid property value &apos;{0}&apos; for property &apos;{1}&apos; with type &apos;{2}&apos;.</value>
+    <comment>Serialization Error: InvalidPropertyValue</comment>
+  </data>
+  <data name="MissingMoniker" xml:space="preserve">
+    <value>Missing moniker. A moniker is expected in attribute &apos;{0}&apos;.</value>
+    <comment>Serialization Error: MissingMoniker</comment>
+  </data>
+  <data name="MissingTransaction" xml:space="preserve">
+    <value>This must be called within the context of an active transaction.</value>
+    <comment>Serialization Error: MissingTransaction</comment>
+  </data>
+  <data name="UnresolvedMoniker" xml:space="preserve">
+    <value>Cannot resolve moniker &apos;{0}&apos;.</value>
+    <comment>Serialization Error: UnresolvedMoniker</comment>
+  </data>
+  <data name="VersionMismatch" xml:space="preserve">
+    <value>Unsupported version &apos;{0}&apos;, can only support &apos;{1}&apos;.</value>
+    <comment>Serialization Error: VersionMismatch</comment>
+  </data>
+  <data name="CannotCloseExistingDiagramDocument" xml:space="preserve">
+    <value>Diagram file &apos;{0}&apos; cannot be closed.</value>
+    <comment>User cancel closing diagram file. Hence, the DSL model file cannot be opened</comment>
+  </data>
+  <data name="BindingErrorOccurred" xml:space="preserve">
+    <value>Extensions for this designer may not be found as a MEF binding error has occurred. The error that occurred was:
+{0}</value>
+    <comment>MEF binding error occurred - exception message being logged in the error window so the user is aware.</comment>
+  </data>
+  <data name="InvalidSaveRootElementType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid root element type.</value>
+    <comment>Exception message used if an invalid root element type is passed to IDomainModelSerializer.SaveModel / SaveModelAndDiagram</comment>
+  </data>
+  <data name="InvalidSaveDiagramType" xml:space="preserve">
+    <value>&apos;{0}&apos; is not a valid diagram type.</value>
+    <comment>Exception message used if an invalid diagram type is passed to IDomainModelSerializer.SaveModelAndDiagram</comment>
+  </data>
+  <data name="MinimumMultiplicityMissingLink" xml:space="preserve">
+    <value>{0} {1} has no {2}.</value>
+    <comment>Multiplicity underflow validation.</comment>
+  </data>
+  <data name="SaveOperationCancelled" xml:space="preserve">
+    <value>Save operation cancelled.</value>
+    <comment>Message when save is cancelled on validation errors</comment>
+  </data>
+  <data name="SaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors, continue save?</value>
+    <comment>Message when validation errors are found on save</comment>
+  </data>
+  <data name="UnloadableSaveValidationFailed" xml:space="preserve">
+    <value>There were validation errors. Continuing to save may cause the file to become unloadable, do you want to continue?</value>
+    <comment>Message when validation errors are found on save that will cause file to become unloadable</comment>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ExampleElementToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\resources\exampleshapetoolbitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="StructuralToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\resources\exampleshapetoolbitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EnablingToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\resources\exampleshapetoolbitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="ImmediateToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\resources\exampleshapetoolbitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EconomicConcernToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\resources\exampleshapetoolbitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="SocialConcernToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\resources\exampleshapetoolbitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="EnvironmentalConcernToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\resources\exampleshapetoolbitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="TechnicalConcernToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\resources\exampleshapetoolbitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+  <data name="RelationshipToolboxBitmap" type="System.Resources.ResXFileRef, System.Windows.Forms" xml:space="preserve">
+    <value>..\resources\exampleconnectortoolbitmap.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+    <comment>Toolbox item image</comment>
+  </data>
+</root>
+
+

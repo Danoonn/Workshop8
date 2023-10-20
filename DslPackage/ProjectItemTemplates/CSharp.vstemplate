@@ -1,0 +1,17 @@
+﻿<!--DSL Tools Language Template-->
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TemplateData>
+		<TemplateID>{8723de0b-d702-4dc9-b84c-c43b882b2949}</TemplateID>
+		<Name Package="{42dbfdfa-208e-4bb3-a44d-4b3fefca676c}" ID="103"/>
+		<Description Package="{42dbfdfa-208e-4bb3-a44d-4b3fefca676c}" ID="102"/>
+		<Icon Package="{42dbfdfa-208e-4bb3-a44d-4b3fefca676c}" ID="201" />
+		<ProjectType>CSharp</ProjectType>
+		<SortOrder>360</SortOrder>
+		<DefaultName>Workshop8.Workshop8</DefaultName>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectItem TargetFileName="$fileinputname$.Workshop8">Workshop8.Workshop8</ProjectItem>
+		<ProjectItem TargetFileName="$fileinputname$.Workshop8.diagram">Workshop8.diagram</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
+
